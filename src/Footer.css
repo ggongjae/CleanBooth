@@ -1,0 +1,143 @@
+.footer {
+    background-color: #e6e6e6;
+  }
+  
+  .allText {
+    width: 1050px;
+    margin-left: 350px;
+  }
+  
+  .all {
+    display: flex;
+    -webkit-box-pack: justify;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+  
+  .first_part {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .title {
+    padding-bottom: 17px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  
+  .title_second {
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  
+  .middle_part {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cs {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cs_button {
+    display: block;
+    width: 140px;
+    height: 40px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    line-height: 39px;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .cs_text {
+    margin-top: 2px;
+    color: rgb(153, 153, 153);
+    letter-spacing: -0.5px;
+    line-height: 16.8px;
+  }
+  
+  .inquiry {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .inquiry_button {
+    display: block;
+    width: 140px;
+    height: 40px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    line-height: 39px;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .inquiry_text {
+    margin-top: 2px;
+    color: rgb(153, 153, 153);
+    letter-spacing: -0.5px;
+    line-height: 16.8px;
+  }
+  
+  .kakao {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .kakao_button {
+    display: block;
+    width: 140px;
+    height: 40px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    line-height: 39px;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .kakao_text {
+    margin-top: 2px;
+    color: rgb(153, 153, 153);
+    letter-spacing: -0.5px;
+    line-height: 16.8px;
+  }
+  
+  .second_title {
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+  
+  .second_text {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  
+  .list {
+    display: flex;
+    padding-bottom: 29px;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 40px;
+  }
+  
+  .list_first {
+    margin-left: 0;
+  }
+  
+  .list_text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .list_last {
+    margin-left: 14px;
+  }
+  
