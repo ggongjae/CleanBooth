@@ -1,0 +1,97 @@
+.middleBox{
+    width: 75%;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.title_4 {
+    font-style: bold;
+}
+.content {
+    padding : 30px
+}
+.content_1 {
+    color: green;
+}
+.content_2 {
+
+}
+.product_ul button{
+    width: 968px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FF6534;
+    color: white;
+    border-radius: 10px;
+    border :none;
+    position: relative;
+    top:350px;
+
+}
+
+.product_1{
+    width: 459px;
+    height: 360px;
+}
+.product_2{
+    width: 459px;
+    height: 360px;
+}
+.product_3{
+    width: 459px;
+    height: 360px;
+}
+.product_4{
+    width: 459px;
+    height: 360px;
+}
+.recruitment{
+    width: 13%;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+    background-color: #009f50;
+    border-radius: 30px;
+    color: white;
+}
+.composition{
+    color: gray;
+}
+.product_ul {
+    display: inline-block;
+    position: relative;
+    right: 100px;
+    
+}
+.product_ul li {
+    display: inline-block;
+    margin: 10px;
+}
+.product_ul p {
+    display: flex;
+}
+.hr-sect {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin:100px;
+    position :relative;
+    right: 100px;
+  }
+  .hr-sect::before,
+  .hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    margin: 0px 16px;
+    border: none;
+    border-style: dashed;
+    border-width: 1px 0;
+    border-color: #009f50;
+  }
+
+  .delivery_img{
+    margin:  100px;
+  }

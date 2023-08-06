@@ -1,14 +1,13 @@
 import { useState } from 'react';
-import './Main.css';
+import './Gnb.css';
 import MainSearch from './MainSearch';
 import CleanExperience from './CleanExperience';
 import Header from './Header';
 import MainImage from './MainImage';
-import Gnb from './Gnb';
 import Footer from './Footer';
 import {Switch, Route, Link } from 'react-router-dom';
-
-const Main = () => {
+const Gnb = () => {
+  // 메뉴 정보 
   const menuData = [
     {
       id: 1,
@@ -47,10 +46,9 @@ const Main = () => {
   const handleMenuClick = (id) => {
     setSelectedMenuId(id);
   };
-  return(
-    <div>
-      <Header/>
-      <div className="bigBox">
+
+  return (
+
     <div className="gnb">
       <ul className='depth1'>
         {menuData.map((menu) => (
@@ -81,12 +79,11 @@ const Main = () => {
         ))}
       </ul>
     </div>
-    <MainImage/>
-    <MainSearch/>
-    </div>
-      <Footer/>
-    </div>
+    
+
   );
 };
 
-export default Main;
+export default Gnb;
+
+

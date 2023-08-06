@@ -1,0 +1,21 @@
+.complete{
+    
+    margin-top: 300px;
+}
+.complete p{
+    font-size: 32px;
+    font-weight: bold;
+}
+.complete button{
+    width: 200px;
+    height: 35px;
+    color: #B3B3B3B3;
+    border-radius: 10px;
+}
+.complete_move{
+    background-color: white;
+}
+.complete_check{
+    margin-bottom: 300px;
+    border-style: none;
+}

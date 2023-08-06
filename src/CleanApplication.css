@@ -1,0 +1,141 @@
+.hr_application {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 20px
+  }
+.hr_application::before,
+.hr_application::after {
+  content: "";
+  flex-grow: 1;
+  margin: 0px 16px;
+  border: none;
+  border-style: dashed;
+  border-width: 1px 0;
+  border-color: #009f50;
+}
+.application_1{
+  display: flex;
+  position: relative;
+  left: 80px;
+}
+.application_2{
+  padding: 50px;
+}
+.application_clean{
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.recruitment_application{
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+    background-color: #009f50;
+    border-radius: 30px;
+    color: white;
+}
+.name_application {
+  font-size: 36px;
+  font-weight: bold;
+}
+.composition_application{
+  font-size: 20;
+  font-size: medium;
+  color: #999999;
+}
+.year_application{
+  font-size: 20;
+  font-size: medium;
+}
+.application_name{
+  width: 932px;
+  height: 44px;
+  border-color: #b3b3b3;
+  border-style: solid;
+  border-radius: 5px;
+  
+}
+.application_number{
+  width: 932px;
+  height: 44px;
+  border-color: #b3b3b3;
+  border-style: solid;
+  border-radius: 5px;
+}
+.application_address{
+  width: 802px;
+  height: 44px;
+  border-color: #b3b3b3;
+  border-style: solid;
+  border-radius: 5px;
+  position: relative;
+  right: 10px;
+  margin-bottom: 20px
+}
+.application_2 button{
+  width: 114px;
+  height: 48px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 8px;
+  position: relative;
+  left: 10px;
+  background-color: #009f50;
+  color: white;
+  font-size: 20;
+  font-weight: bold;
+}
+.application_detail{
+  width: 932px;
+  height: 44px;
+  border-color: #b3b3b3;
+  border-style: solid;
+  border-radius: 5px;
+}
+.application_caution{
+  width: 932px;
+  height: 44px;
+  border-color: #b3b3b3;
+  border-style: solid;
+  border-radius: 5px;
+}
+.application_product{
+  width: 932px;
+  height: 44px;
+  border-color: #b3b3b3;
+  border-style: solid;
+  border-radius: 5px;
+}
+.application_privacy{
+  width: 24px;
+  height: 24px;
+  border-style: solid;
+  border-radius: 5px;
+}
+.application_need{
+  color: #FF6534;
+  font-size: 20px;
+}
+.application_2 span{
+  color: #FF6534;
+}
+.application_apply_button{
+  width: 968px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background : #CCCC;
+  border-radius: 10px;
+  border :none;
+}
+.application_apply_button.active {
+  background-color: #FF6534; /* 활성화된 버튼의 배경색 */
+
+}

@@ -1,0 +1,70 @@
+/* 영양 성분 검색 메뉴 스타일 */
+
+.box {
+    position: relative;
+    top: -100px;
+    width: 100%;
+    height: 1000px;
+  }
+  
+  .vigandiet {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .box hr{
+    height: 2px;
+    width:80%;
+    background-color: #d9d9d9;
+    border:#d9d9d9;
+  }
+  .vigan_image li {
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 80px;
+    width: 18%;
+    height: 180px;
+    margin-right: 30px; /* 네모 오른쪽 여백을 주기 위해 추가 */
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: rgb(196, 194, 194);
+  }
+  
+  .vigan_image p {
+    position: relative;
+    top: 170px;
+  }
+  .diet_image li{
+    display: inline-block;
+    float: left;
+    left: 80px;
+    width: 18%;
+    position: relative;
+    height: 180px;
+    margin-right: 30px; /* 네모 오른쪽 여백을 주기 위해 추가 */
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: rgb(196, 194, 194);
+  }
+  .diet_image p{
+    position: relative;
+    top: 170px;
+  }
+  .vigan.selected {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #009f50;
+    text-decoration-thickness: 0.25em; /* 밑줄의 두께 조정 */
+    text-underline-offset: 1.28em; 
+  }
+  .diet.selected {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #009f50;
+    text-decoration-thickness: 0.25em; /* 밑줄의 두께 조정 */
+    text-underline-offset: 1.28em; 
+  }
+  

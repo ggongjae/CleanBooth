@@ -10,9 +10,7 @@
     margin: 0 auto;
   }
   
- 
 /* GNB 스타일 */
-
 .gnb {
     margin: 0;
     padding: 0;
@@ -28,6 +26,7 @@
   }
   .gnb .depth1 {
     position: relative;
+    bottom: 20px;
     display: flex;
     justify-content:space-evenly;
   }
@@ -35,9 +34,6 @@
   .gnb .depth1 > li {
     display: inline-block;
     font-size: 14px;
-    padding: 0px 20px;
-    vertical-align: top;
-    
   }
   .gnb .depth1 >li:hover > a{
     color: #009f50;
@@ -51,13 +47,14 @@
     padding: 40px;
     width: 600px;
     left: 40%;
-    transform: translateX(-50%)
+  
   }
 
   .gnb .depth1 > li:hover > .depth2 {
     display: flex;
   }
   .gnb .depth2 li  {
+    display:block;
     padding-top: 30px;
     position: relative;
     right: 100px;
@@ -71,19 +68,18 @@
   .gnb .depth3 {
     display: none;
     position: absolute;
-    padding-left: 0; /* 들여쓰기 제거 */
-    top: 16px; 
-    left: 100%; 
     
   }
   .gnb .depth3 li {
+    position: relative;
+    right: 120px;
+    top:5px;
     padding: 10px;
-    display: grid;
-    white-space: nowrap;
+
+   
   }
   .gnb .depth2 li:hover > .depth3 {
     display:flex;
-    left: 750px;
   }
 
   .depth3 a:hover{
@@ -92,15 +88,15 @@
   }
   .gnb .smallbox{
     position: absolute;
-    width: 100%;
+    width: 158.2%;
     height: 300px;
     background-color: white;
-    left: -87px;
+    left: -90px;
+
 
   }
   .gnb .message {
-    font-size: 25px;
-    position: fixed;
+    font-size: 32px;
     top: 70px;
-    left: 50px;
+    left: 30px;
   }
