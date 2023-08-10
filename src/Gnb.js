@@ -1,11 +1,6 @@
 import { useState } from 'react';
 import './Gnb.css';
-import MainSearch from './MainSearch';
-import CleanExperience from './CleanExperience';
-import Header from './Header';
-import MainImage from './MainImage';
-import Footer from './Footer';
-import {Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const Gnb = () => {
   // 메뉴 정보 
   const menuData = [
@@ -50,40 +45,48 @@ const Gnb = () => {
   return (
 
     <div className="gnb">
-      <ul className='depth1'>
-        {menuData.map((menu) => (
-          <li key={menu.id}>
-            <Link to={`/menu/${menu.id}`} onClick={() => handleMenuClick(menu.id)}>{menu.label}</Link>
-            {menu.subMenu && menu.subMenu.length > 0 && (
-              <ul className='depth2'>
-                <div className='smallbox'>
-                  <div className="message">{menu.label}</div>
-                  {menu.subMenu.map((subMenu) => (
-                    <li key={subMenu.id}>
-                      <a href='' onClick={() => handleMenuClick(subMenu.id)}>{subMenu.label}</a>
-                      {subMenu.subSubMenu && subMenu.subSubMenu.length > 0 && (
-                        <ul className='depth3'>
-                          {subMenu.subSubMenu.map((subSubMenu) => (
-                            <li key={subSubMenu.id}>
-                              <a href=''>{subSubMenu}</a>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </li>
-                  ))}
-                </div>
-              </ul>
+    <ul className='depth1'>
+      {menuData.map((menu) => (
+        <li key={menu.id}>
+          <Link to={`/menu/${menu.id}`} onClick={() => handleMenuClick(menu.id)}>
+            {menu.subMenu && menu.subMenu.length > 0 ? (
+              <span className="menuLabel">{menu.label}</span>
+            ) : (
+              <span>{menu.label}</span>
             )}
-          </li>
-        ))}
-      </ul>
-    </div>
+          </Link>
+          {menu.subMenu && menu.subMenu.length > 0 && (
+            <ul className='depth2'>
+              <div className='smallbox'>
+                <div className="message">{menu.label}</div>
+                {menu.subMenu.map((subMenu) => (
+                  <li key={subMenu.id}>
+                    <a href='' onClick={() => handleMenuClick(subMenu.id)}>
+                      <span className="subMenuLabel">{subMenu.label}</span>
+                    </a>
+                    {subMenu.subSubMenu && subMenu.subSubMenu.length > 0 && (
+                      <ul className='depth3'>
+                        {subMenu.subSubMenu.map((subSubMenu) => (
+                          <li key={subSubMenu.id}>
+                            <a href=''>
+                              <span className="subSubMenuLabel">{subSubMenu}</span>
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
+              </div>
+            </ul>
+          )}
+        </li>
+      ))}
+    </ul>
+  </div>
     
 
   );
 };
 
 export default Gnb;
-
-

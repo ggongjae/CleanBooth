@@ -5,6 +5,7 @@ import './Header.css'
 import img1 from './사진/Rectangle 32.png';
 const Header = () =>{
   const [value,setValue] = useState(" "); 
+  
   return(
     <header>
       <div className="header">

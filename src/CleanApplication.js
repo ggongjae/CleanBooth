@@ -1,15 +1,14 @@
 import { useState } from 'react';
 import './CleanApplication.css';
 import React from 'react';
-import Header from './Header.js';
-import Footer from './Footer.js';
-import Gnb from './Gnb.js';
+import Header from './Header';
+import Footer from './Footer';
+import Gnb from './Gnb';
 import PopupDom from './PopupDom';
 import PopupPostCode from './PopupPostCode';
 import img from './사진/Rectangle 213.png'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Modal from './Modal';
-import CleanApplicationComplete from './CleanApplicationComplete'; 
+import {  Link } from 'react-router-dom';
+
 
 
 const CleanApplication = () => {
@@ -66,11 +65,11 @@ const CleanApplication = () => {
   };
 
     return(
-        <div>
+        <div className='background'>
             <Header/>
             <div className='bigBox'>
                 <Gnb/>
-                <hr/>
+                <hr className='application_clean_hr'/>
                 <p className='application_clean'> 클린 체험단 신청하기 </p>
                 <div>
                     <div className='application_1'>

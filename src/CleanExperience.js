@@ -7,11 +7,11 @@ import img1 from'./사진/Rectangle 213.png';
 import img2 from'./사진/배송.png';
 import img3 from'./사진/Frame 279.png';
 import { Link } from 'react-router-dom';
-import CleanApplication from './CleanApplication.js';
+
 
 const CleanExperience = () => {
     return(
-        <div>
+        <div className='background'>
             <Header/>
             <div className='bigBox'>
             <Gnb/>

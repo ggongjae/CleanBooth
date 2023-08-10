@@ -10,10 +10,11 @@ import img1 from './사진/Vector.png'
 
 const CleanApplicationComplete = () => {
     return(
-        <div>
+        <div className='background'>
             <Header/>
             <div className='bigBox'>
                 <Gnb/>
+                <hr/>
                 <div className='complete'>
                     <img src={img1} className="check"></img>
                     <p>클린 체험단 신청이 완료되었습니다</p>

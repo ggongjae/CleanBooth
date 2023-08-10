@@ -1,3 +1,11 @@
+.background {
+    background-color: #009f50;
+    height: 220px;
+    border-radius: 0 0 50% 50%;
+  }
+.application_clean_hr{
+    
+}
 .complete{
     
     margin-top: 300px;
