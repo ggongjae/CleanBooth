@@ -1,6 +1,5 @@
 
   /* 큰 박스 스타일 */
-  
   .bigBox {
     width: 75%;
     border-radius: 20px;
@@ -10,9 +9,7 @@
     margin: 0 auto;
   }
   
- 
 /* GNB 스타일 */
-
 .gnb {
     margin: 0;
     padding: 0;
@@ -30,14 +27,13 @@
     position: relative;
     display: flex;
     justify-content:space-evenly;
+    bottom: 10px;
   }
 
   .gnb .depth1 > li {
     display: inline-block;
     font-size: 14px;
     padding: 0px 20px;
-    vertical-align: top;
-    
   }
   .gnb .depth1 >li:hover > a{
     color: #009f50;

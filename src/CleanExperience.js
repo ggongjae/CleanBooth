@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 const CleanExperience = () => {
     return(
         <div className='background'>
+            <div className='background_long_round'>
             <Header/>
             <div className='bigBox'>
             <Gnb/>
@@ -46,6 +47,7 @@ const CleanExperience = () => {
             </div>
         </div>
         <Footer/>
+        </div>
         </div>
     );
 };

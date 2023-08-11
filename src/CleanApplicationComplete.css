@@ -1,14 +1,23 @@
-.background {
+.background{
+    background-color: #fafafa;
+    height:1300px;
+    border-radius: 0px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+.background_short_round {
     background-color: #009f50;
     height: 220px;
-    border-radius: 0 0 50% 50%;
+    border-radius: 0% 0% 100% 100%
   }
 .application_clean_hr{
     
 }
 .complete{
-    
-    margin-top: 300px;
+    margin-top: 200px;
 }
 .complete p{
     font-size: 32px;
@@ -22,8 +31,16 @@
 }
 .complete_move{
     background-color: white;
+    font-size: 16px;
+    font-style: medium;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #B3B3B3B3;
+    
 }
 .complete_check{
     margin-bottom: 300px;
     border-style: none;
+    font-size: 16px;
+    font-style: medium;
 }

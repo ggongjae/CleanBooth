@@ -9,7 +9,8 @@ import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
-    <div className='background_main'>
+    <div className='background'>
+      <div className='background_long_round'>
       <Header />
       <div className="bigBox">
         <Gnb/>
@@ -17,6 +18,7 @@ const Main = () => {
         <MainSearch />
       </div>
       <Footer />
+    </div>
     </div>
   );
 };

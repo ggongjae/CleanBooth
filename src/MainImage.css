@@ -7,4 +7,15 @@
   .image img {
     max-width: 100%;
   }
-  
+
+.image_button button{ 
+  position: relative;
+  bottom: 100px;
+  left: 400px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+.image_button .image_number {
+  font-size: 16px;
+}

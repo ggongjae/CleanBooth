@@ -1,12 +1,22 @@
-import React from 'react';
+// Modal.js
 
-const Modal = ({ title, content, onClose }) => {
+import React from 'react';
+import './Modal.css';
+
+const Modal = ({ onClose}) => {
   return (
-    <div className="modal">
+    <div className={`modal-overlay ${onClose ? 'modal-open' : ''}`}>
       <div className="modal-content">
-        <h2>{title}</h2>
-        <p>{content}</p>
-        <button onClick={onClose}>닫기</button>
+        <button className="modal-close-button" onClick={onClose}>
+          x
+        </button>
+        <h3>개인정보 이용 동의</h3>
+        <p>약관동의</p>
+        <button onClick={onClose}>
+          확인
+        </button>
+        <div className="modal-body">
+        </div>
       </div>
     </div>
   );

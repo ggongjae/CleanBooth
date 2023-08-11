@@ -1,3 +1,7 @@
+
+.bigbox{
+  background-color: #fff;
+}
 .hr_application {
     display: flex;
     align-items: center;
@@ -16,9 +20,11 @@
   border-width: 1px 0;
   border-color: #009f50;
 }
+.application_product_img{
+  padding-left: 40px
+}
 .application_1{
   display: flex;
- 
 }
 .application_2{
   padding: 50px;
@@ -38,19 +44,30 @@
     background-color: #009f50;
     border-radius: 30px;
     color: white;
+    position: relative;
+    left: 20px;
 }
 .name_application {
   font-size: 36px;
   font-weight: bold;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
 }
 .composition_application{
   font-size: 20;
   font-size: medium;
   color: #999999;
+  position: relative;
+  bottom: 60px;
+  left: 10px;
 }
 .year_application{
   font-size: 20;
   font-size: medium;
+  position: relative;
+  bottom: 70px;
+  left: 20px;
 }
 .application_name{
   width: 932px;
@@ -90,6 +107,14 @@
   font-size: 20;
   font-weight: bold;
 }
+.application_2 p {
+  display: flex;
+  position: relative;
+  left: 20px;
+}
+.application_2 span{
+  color: #FF6534;
+}
 .application_detail{
   width: 932px;
   height: 44px;
@@ -98,18 +123,24 @@
   border-radius: 5px;
 }
 .application_caution{
-  width: 932px;
+  width: 960px;
   height: 44px;
-  border-color: #b3b3b3;
-  border-style: solid;
-  border-radius: 5px;
+  padding-left: 20px;
+  text-align: left;
 }
-.application_product{
-  width: 932px;
+.application_product p{
+  display: flex;
+  position: relative;
+  left:80px
+}
+.application_product span{
+  color: #FF6534;
+}
+.application_product_select{
+  width: 1010px;
   height: 44px;
-  border-color: #b3b3b3;
-  border-style: solid;
-  border-radius: 5px;
+  padding-left: 80px;
+  text-align: left;
 }
 .application_privacy{
   width: 24px;
@@ -121,8 +152,13 @@
   color: #FF6534;
   font-size: 20px;
 }
-.application_2 span{
-  color: #FF6534;
+.viewterms_button{
+  color: #CCCC;
+  font-style: medium;
+  font-size: 16px;
+  text-decoration:underline;
+  background-color: transparent;
+  border: none;
 }
 .application_apply_button{
   width: 968px;
@@ -133,8 +169,19 @@
   background : #CCCC;
   border-radius: 10px;
   border :none;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .application_apply_button.active {
   background-color: #FF6534; /* 활성화된 버튼의 배경색 */
 
+}
+
+.application_box {
+  display: flex;
+  align-items: center;
+  gap :10px;
+  margin: 30px;
+  position: relative;
+  left: 50px;
 }
