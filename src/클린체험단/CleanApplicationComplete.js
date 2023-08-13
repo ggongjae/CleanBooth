@@ -1,10 +1,9 @@
-import { useState } from 'react';
 import React from 'react';
-import Header from './Header.js';
-import Footer from './Footer.js';
-import Gnb from './Gnb.js';
+import Header from '../공통/Header.js';
+import Footer from '../공통/Footer.js';
+import Gnb from '../공통/Gnb.js';
 import './CleanApplicationComplete.css';
-import img1 from './사진/Vector.png'
+import img1 from '../사진/Vector.png'
 import { Link } from 'react-router-dom';
 
 

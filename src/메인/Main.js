@@ -1,11 +1,9 @@
-import { useState } from 'react';
 import './Main.css';
 import MainSearch from './MainSearch';
-import Header from './Header';
+import Header from '../공통/Header'
 import MainImage from './MainImage';
-import Footer from './Footer'
-import Gnb from './Gnb';
-import { Link } from 'react-router-dom';
+import Footer from '../공통/Footer'
+import Gnb from '../공통/Gnb';
 
 const Main = () => {
   return (

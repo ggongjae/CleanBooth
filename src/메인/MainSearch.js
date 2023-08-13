@@ -1,20 +1,20 @@
 import "./MainSearch.css"
 import { useState } from 'react';
-import img1 from './사진/Rectangle 170.png';
-import img2 from './사진/Rectangle 171.png';
-import img3 from './사진/Rectangle 172.png';
-import img4 from './사진/Rectangle 173.png';
-import img5 from './사진/Rectangle 174.png';
-import img6 from './사진/Rectangle 175.png';
-import img7 from './사진/Rectangle 176.png';
-import img8 from './사진/Rectangle 177.png';
-import img9 from './사진/Rectangle 178.png';
-import img10 from './사진/Rectangle 179.png';
-import img11 from './사진/Rectangle 180.png';
-import img12 from './사진/Rectangle 181.png';
-import img13 from './사진/Rectangle 182.png';
-import img14 from './사진/Rectangle 183.png';
-import img15 from './사진/Rectangle 184.png';
+import img1 from '../사진/Rectangle 170.png';
+import img2 from '../사진/Rectangle 171.png';
+import img3 from '../사진/Rectangle 172.png';
+import img4 from '../사진/Rectangle 173.png';
+import img5 from '../사진/Rectangle 174.png';
+import img6 from '../사진/Rectangle 175.png';
+import img7 from '../사진/Rectangle 176.png';
+import img8 from '../사진/Rectangle 177.png';
+import img9 from '../사진/Rectangle 178.png';
+import img10 from '../사진/Rectangle 179.png';
+import img11 from '../사진/Rectangle 180.png';
+import img12 from '../사진/Rectangle 181.png';
+import img13 from '../사진/Rectangle 182.png';
+import img14 from '../사진/Rectangle 183.png';
+import img15 from '../사진/Rectangle 184.png';
 
 const MainSearch = () => {
 

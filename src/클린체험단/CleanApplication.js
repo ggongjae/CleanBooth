@@ -1,13 +1,13 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
+import {  Link } from 'react-router-dom';
 import './CleanApplication.css';
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import Gnb from './Gnb';
+import Header from '../공통/Header';
+import Footer from '../공통/Footer';
+import Gnb from '../공통/Gnb';
+import img from '../사진/Rectangle 213.png'
 import PopupDom from './PopupDom';
 import PopupPostCode from './PopupPostCode';
-import img from './사진/Rectangle 213.png'
-import {  Link } from 'react-router-dom';
 import Modal from './Modal';
 import Select from "react-select";
 

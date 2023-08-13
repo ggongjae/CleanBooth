@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './Header.js';
-import Footer from './Footer.js';
-import Gnb from './Gnb.js';
+import Header from '../공통/Header.js';
+import Footer from '../공통/Footer.js';
+import Gnb from '../공통/Gnb.js';
 import './CleanExperience.css';
-import img1 from'./사진/Rectangle 213.png';
-import img2 from'./사진/배송.png';
-import img3 from'./사진/Frame 279.png';
+import img1 from'../사진/Rectangle 213.png';
+import img2 from'../사진/배송.png';
+import img3 from'../사진/Frame 279.png';
 import { Link } from 'react-router-dom';
 
 

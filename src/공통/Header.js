@@ -3,7 +3,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import img1 from "./사진/Rectangle 32.png";
+import img1 from "../사진/Rectangle 32.png";
 
 const Header = () => {
   const [inputText, setInputText] = useState("");
