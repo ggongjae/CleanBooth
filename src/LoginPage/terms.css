@@ -1,0 +1,176 @@
+.main {
+}
+
+.terms_text {
+  position: absolute;
+  width: 160px;
+  height: 43px;
+  left: calc(50% - 133px / 2 + 0.5px);
+  top: 220px;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.main .logo {
+  box-sizing: border-box;
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: calc(50% - 72px / 2);
+  top: 98px;
+}
+
+.first {
+  display: flex;
+  position: relative;
+  left: 550px;
+  top: 380px;
+}
+
+.more {
+  margin-left: 180px;
+  border: none;
+  background-color: white;
+  color: gray;
+}
+
+.second {
+  display: flex;
+  position: relative;
+  left: 550px;
+  top: 380px;
+}
+
+.an_more {
+  margin-left: 170px;
+  border: none;
+  background-color: white;
+  color: gray;
+}
+
+.third {
+  display: flex;
+  position: relative;
+  left: 550px;
+  top: 380px;
+}
+
+.line {
+  position: absolute;
+  width: 478px;
+  height: 0px;
+  left: calc(50% - 478px / 2);
+  top: 580px;
+  border: 2px solid #009f50;
+}
+
+.as {
+  /* Frame 12 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  position: absolute;
+  width: 281px;
+  height: 24px;
+  left: 645px;
+  top: 645px;
+
+  /* check_circle
+
+approve, check, circle, complete, done, mark, ok, select, tick, validate, verified, yes
+*/
+
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Vector */
+
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+
+  background: #000000;
+
+  /* 클린 부스 가입 약관에 모두 동의합니다. */
+
+  width: 245px;
+  height: 19px;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.main_checkbox {
+  display: flex;
+  position: relative;
+  left: 530px;
+  top: 440px;
+}
+
+.checkbox_text {
+  margin-left: 10px;
+}
+
+.checkbox {
+  
+}
+
+.button_part {
+  position: relative;
+  left: 530px;
+  top: 480px;
+}
+
+.front {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  border: 1px solid gray;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.sure {
+  margin-left: 20px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}

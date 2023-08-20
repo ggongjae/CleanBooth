@@ -1,11 +1,18 @@
 
-.image {
+.bigbox .image {
     height: 600px;
     margin-top: 50px;
   }
   
   .image img {
-    max-width: 100%;
+    width: 100%;
+  }
+  .image .advertisement{
+    width: 1090px;
+    position: relative;
+    right: 140px;
+    z-index: 0;
+
   }
 
 .image_button button{ 
@@ -15,7 +22,15 @@
   background-color: transparent;
   border: none;
   font-size: 20px;
+  color: #ccc;
 }
-.image_button .image_number {
-  font-size: 16px;
+.image_button .image_left {
+  width: 4%;
+}
+.image_button .image_right {
+  width: 4%;
+}
+.image_button .image_number{
+  position: relative;
+  top:-108px
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import LoginHeader from '../공통/LoginHeader.js';
 import Header from '../공통/Header.js';
 import Footer from '../공통/Footer.js';
 import Gnb from '../공통/Gnb.js';
@@ -10,10 +11,51 @@ import { Link } from 'react-router-dom';
 
 
 const CleanExperience = () => {
+
+    const cleanExperienceData = [
+        {
+          imgSrc: img1,
+          recruitment: '모집 중',
+          title: '제목',
+          period: '모집기간',
+        },
+        {
+            imgSrc: img1,
+            recruitment: '모집 중',
+            title: '제목',
+            period: '모집기간',
+          },
+          {
+            imgSrc: img1,
+            recruitment: '모집 중',
+            title: '제목',
+            period: '모집기간',
+          },
+          {
+            imgSrc: img1,
+            recruitment: '모집 중',
+            title: '제목',
+            period: '모집기간',
+          },
+          {
+            imgSrc: img1,
+            recruitment: '모집 중',
+            title: '제목',
+            period: '모집기간',
+          },
+          {
+            imgSrc: img1,
+            recruitment: '모집 중',
+            title: '제목',
+            period: '모집기간',
+          },
+
+        // 이하 다른 상품들의 데이터...
+      ];
     return(
         <div className='background'>
             <div className='background_long_round'>
-            <Header/>
+            <LoginHeader/>
             <div className='bigBox'>
             <Gnb/>
             <hr/>
@@ -27,23 +69,29 @@ const CleanExperience = () => {
                     좋은 후기 글을 자신일게! 작성할 수 있는 분들!</p>
                 </div>
                 <div>
-                    <ul className="product_ul">
-                        <Link to="/CleanApplication"><button>신청하기</button></Link>
-                        <li><img src ={img1} className="product_1"></img>
-                        <p className='recruitment'> 모집 여부</p> <p className='name'> 제품명 </p> <p className='composition'> 제품 구성</p> <p className='year'>~YY/MM//DD</p></li>
-                        <li><img src={img1} className="product_2"></img>
-                        <p className='recruitment'> 모집 여부</p> <p className='name'> 제품명 </p> <p className='composition'> 제품 구성</p> <p className='year'>~YY/MM//DD</p></li>
-                        <li><img src={img1} className="product_3"></img>
-                        <p className='recruitment'> 모집 여부</p> <p className='name'> 제품명 </p> <p className='composition'> 제품 구성</p> <p className='year'>~YY/MM//DD</p></li>
-                        <li><img src={img1} className="product_4"></img>
-                        <p className='recruitment'> 모집 여부</p> <p className='name'> 제품명 </p> <p className='composition'> 제품 구성</p> <p className='year'>~YY/MM//DD</p></li>
-                    </ul>
-                </div>
-                <div>
                     <div className ="hr-sect"> ABOUT 클린체험단 </div> 
                     <img src={img3}></img>
                     <img src={img2} className="delivery_img"></img>
                 </div>
+                <div>
+                <ul className="clean_product_ul">
+                    {cleanExperienceData.map((product, index) => (
+                    <li key={index}>
+                        <img src={product.imgSrc} className={`product_${index + 1}`} />
+                        <p className="recruitment"> {product.recruitment}</p>
+                        <p className="name"> {product.title} </p>
+                        <p className="year"> {product.period}</p>
+                        <Link to={{
+                            pathname: `/CleanExperienceProduct`,
+                            state: { product },
+                        }}>
+                            <button>신청하기</button>
+                        </Link>
+                    </li>
+                    ))}
+                </ul>
+            </div>
+
             </div>
         </div>
         <Footer/>

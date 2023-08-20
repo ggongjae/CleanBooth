@@ -1,0 +1,83 @@
+.customer {
+    margin-top: 80px;
+  }
+  
+  .customer h1 {
+    text-align: center;
+  }
+  
+  .vigandiet {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .box hr {
+    height: 2px;
+    width: 80%;
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+  }
+  
+  .customer_text {
+    font-size: 10px;
+    color: #999696;
+  }
+  
+  .customer_ul {
+    list-style: initial;
+  }
+  
+  .customer_main {
+    padding: 20px 90px;
+  }
+  
+  .customer_search {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search_box {
+    display: flex;
+    margin-left: 400px;
+    gap: 5px;
+  }
+  
+  .customer_input {
+    padding: 5px;
+  }
+  
+  .customer_button {
+    background: #009f50;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .customer_title {
+    display: flex;
+    position: relative;
+    gap: 130px;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  
+  .hr_style {
+    border: none;
+    border-top: 1px solid #999696;
+  }
+  
+  .customer_title_title {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  
+  .customer_count {
+    margin-left: 30px;
+  }

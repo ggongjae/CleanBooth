@@ -9,14 +9,15 @@ const Main = () => {
   return (
     <div className='background'>
       <div className='background_long_round'>
-      <Header />
-      <div className="bigBox">
-        <Gnb/>
-        <MainImage />
-        <MainSearch />
+        <Header />
+        <div className="bigBox">
+          <Gnb/>
+          <MainImage />
+          <MainSearch />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+
     </div>
   );
 };

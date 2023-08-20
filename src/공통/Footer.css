@@ -19,7 +19,7 @@
     margin: 0;
   }
   
-  .title {
+  .footer .title {
     padding-bottom: 17px;
     font-weight: 500;
     font-size: 20px;
@@ -86,12 +86,12 @@
     line-height: 16.8px;
   }
   
-  .kakao {
+  .footer .kakao {
     display: flex;
     flex-direction: row;
   }
   
-  .kakao_button {
+  .footer .kakao_button {
     display: block;
     width: 140px;
     height: 40px;
@@ -103,7 +103,7 @@
     margin-bottom: 16px;
   }
   
-  .kakao_text {
+  .footer .kakao_text {
     margin-top: 2px;
     color: rgb(153, 153, 153);
     letter-spacing: -0.5px;
@@ -120,7 +120,7 @@
     line-height: 40px;
   }
   
-  .list {
+  .footer .list {
     display: flex;
     padding-bottom: 29px;
     list-style-type: none;

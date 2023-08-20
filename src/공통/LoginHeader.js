@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import img1 from "../사진/Rectangle 32.png";
 
-const Header = () => {
+const LoginHeader = () => {
   const [inputText, setInputText] = useState("");
   const [nextId, setNextId] = useState(5);
   const [names, setNames] = useState([]);
@@ -108,10 +108,8 @@ const Header = () => {
         </div>
         
         <div className="user">
-          <Link to = "/Login"><button className="user_login"> 로그인 &nbsp; </button> </Link>
-          <span className="divider"> | &nbsp; </span>
-          <div className="sign-up"> 회원 가입 &nbsp; </div>
-          <span className="divider"> | &nbsp; </span>
+          <div className="mypage">마이페이지 </div>
+          <span className="divider"> &nbsp;| &nbsp; </span>
           <Link to = "/Customer"><div className="customer_center"> 고객 센터 </div></Link>
         </div>
 
@@ -120,4 +118,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default LoginHeader;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../공통/Header.js';
+import LoginHeader from '../공통/LoginHeader.js';
 import Footer from '../공통/Footer.js';
 import Gnb from '../공통/Gnb.js';
 import './CleanApplicationComplete.css';
@@ -12,7 +13,7 @@ const CleanApplicationComplete = () => {
     return(
         <div className='background'>
               <div className='background_short_round'>
-            <Header/>
+            <LoginHeader/>
             <div className='bigBox'>
                 <Gnb/>
                 <hr/>

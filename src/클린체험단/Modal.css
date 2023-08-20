@@ -36,3 +36,19 @@
 #modalCloseBtn:hover {
   cursor: pointer;
 }
+
+.viewterms_button{
+  color: #CCCC;
+  font-style: medium;
+  font-size: 16px;
+  text-decoration:underline;
+  background-color: transparent;
+  border: none;
+}
+.modal_btn{
+  width: 260px;
+  height: 39px;
+  border: 1px solid #009F50;
+  background-color: transparent;
+  margin-top: 300px;
+}

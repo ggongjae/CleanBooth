@@ -20,8 +20,9 @@
     color: inherit;
     
   }
-  ul{
+  .gnb ul{
     list-style: none;
+    z-index: 1;
   }
   .gnb .depth1 {
     position: relative;
@@ -88,12 +89,10 @@
   }
   .gnb .smallbox{
     position: absolute;
-    width: 158.5%;
+    width: 158.8%;
     height: 300px;
     background-color: white;
-    left: -90px;
-    
-
+    left: -92px;
   }
   .gnb .message {
     font-size: 25px;
@@ -103,6 +102,6 @@
   }
 
   .subMenuLabel:hover {
-   padding: 10px 20px;
+    padding: 10px 20px;
     background: rgba(0, 159, 80, 0.5); /* 밑줄 색상 변경 */
   }

@@ -1,0 +1,76 @@
+/* Rectangle 36 */
+.box .image {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 725px;
+    top: 70px;
+    background: url(Rectangle\ 36.png);
+  }
+  
+.box .login_text {
+    /* 로그인하기 */
+    position: absolute;
+    width: 156px;
+    height: 43px;
+    left: calc(50% - 156px / 2);
+    top: 257px;
+  
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+  
+    color: #000000;
+  }
+  
+.box .login_text2 {
+    /* 소셜 로그인으로 간편하게 클린부스를 이용하세요 */
+  
+    position: absolute;
+    width: 268px;
+    height: 17px;
+    left: calc(50% - 268px / 2);
+    top: 316px;
+  
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-top: 20px;
+  }
+  
+.box .naver {
+    position: absolute;
+    width: 570px;
+    height: 72px;
+    left: 480px;
+    top: 450px;
+    background: url(Frame\ 9.png);
+  }
+  
+  .box .kakao {
+    position: absolute;
+    width: 562.5px;
+    height: 72px;
+    left: 484px;
+    top: 550px;
+    background: url(Frame\ 11.png);
+  }
+  
+  .box {
+      width: 75%;
+      border-radius: 20px;
+      background-color: white;
+      text-align: center;
+      padding-top: 40px;
+      margin: 0 auto;
+  }

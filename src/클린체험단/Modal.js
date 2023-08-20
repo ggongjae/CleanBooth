@@ -1,25 +1,35 @@
-// Modal.js
+import React, { useState } from "react";
+import "./Modal.css";
 
-import React from 'react';
-import './Modal.css';
+function Modal(props) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-const Modal = ({ onClose}) => {
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
   return (
-    <div className={`modal-overlay ${onClose ? 'modal-open' : ''}`}>
-      <div className="modal-content">
-        <button className="modal-close-button" onClick={onClose}>
-          x
-        </button>
-        <h3>개인정보 이용 동의</h3>
-        <p>약관동의</p>
-        <button onClick={onClose}>
-          확인
-        </button>
-        <div className="modal-body">
+    <div>
+      <button className = "viewterms_button" onClick={openModal}>약관보기</button>
+
+      {isModalOpen && (
+        <div className="Modal">
+          <div className="modalBody" >
+            <button id="modalCloseBtn" onClick={closeModal}>
+              ✖
+            </button>
+            <h3>개인정보 이용 동의</h3>
+            <p>약관 내용</p>
+            <button className="modal_btn"onClick={closeModal}>확인</button>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
-};
+}
 
 export default Modal;

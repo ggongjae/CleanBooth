@@ -1,6 +1,6 @@
 /* 영양 성분 검색 메뉴 스타일 */
 
-.box {
+.searchbox {
     position: relative;
     top: -100px;
     width: 100%;
@@ -45,5 +45,9 @@
     text-decoration-color: #009f50;
     text-decoration-thickness: 0.25em; /* 밑줄의 두께 조정 */
     text-underline-offset: 1.28em; 
+  }
+  .vigandiet {
+    text-decoration: none;
+    list-style: none;
   }
   

@@ -1,0 +1,13 @@
+.background_long_round {
+    background-color: #009f50;
+    height: 900px;
+    border-radius: 0 0 50% 50%;
+  }
+  .bigbox {
+    width: 75%;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto;
+  }

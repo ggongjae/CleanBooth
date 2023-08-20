@@ -31,7 +31,7 @@ const MainSearch = () => {
       setShowDietImage(true);
     };
     return(
-        <div className='box'>
+        <div className='searchbox'>
         <h1> 영양 성분 검색하기 </h1>
         <ul className='vigandiet'>
           <li className={showViganImage ? 'vigan selected' : 'vigan'}

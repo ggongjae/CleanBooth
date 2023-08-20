@@ -2,6 +2,7 @@ import { useState, useRef } from 'react';
 import {  Link } from 'react-router-dom';
 import './CleanApplication.css';
 import React from 'react';
+import LoginHeader from '../공통/LoginHeader';
 import Header from '../공통/Header';
 import Footer from '../공통/Footer';
 import Gnb from '../공통/Gnb';
@@ -10,7 +11,7 @@ import PopupDom from './PopupDom';
 import PopupPostCode from './PopupPostCode';
 import Modal from './Modal';
 import Select from "react-select";
-
+import img1 from'./Frame 82.png'
 
 let delivery_options = [
     { value: "1", label: "부재시 집 앞에 놓아주세요" },
@@ -94,12 +95,15 @@ const CleanApplication = () => {
     return(
         <div className='background'>
             <div className='background_short_round'>
-            <Header/>
+            <LoginHeader/>
             <div className='bigBox'>
                 <Gnb/>
                 <hr className='application_clean_hr'/>
                 <p className='application_clean'> 클린 체험단 신청하기 </p>
                 <div className='application'>
+                    <button className='share_button'>
+                            <img src={img1} alt="Share Button" style={{ width: '30px', height: '30px' }} />
+                    </button>
                     <div className='application_1'>
                         <img src={img} className="application_product_img"></img>
                         <div>
@@ -174,10 +178,7 @@ const CleanApplication = () => {
                         </checkbox>
                             <p className='application_need'> (필수)</p> 
                             <p>개인정보 제 3자 제공 동의</p> 
-                            <button className='viewterms_button'onClick={openModal}>약관보기</button>
-                            {isModalOpen && (
-                            <Modal onClose={closeModal} />
-                        )}
+                            <Modal/>
                     </div>
                         <Link to ="/CleanApplicationComplete">
                         <button
